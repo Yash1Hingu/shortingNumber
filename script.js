@@ -19,7 +19,7 @@ function bubblesort(erp)
 
 function Output(erp)
 {
-    output.innerHTML = erp;
+    output.value = erp;
 }
 let btn = document.getElementById("btn");
 let reset = document.getElementById("btn-reset");
